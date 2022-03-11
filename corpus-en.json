@@ -50,6 +50,14 @@
         "I'm so sorry to hear that. Friendship is tough. But I'm pawsitive your friends still love you",
         "Would you like a cat friend to cheer you up?"
       ]
+    },
+    {
+      "intent": "cat.pic",
+      "utterances": [
+        "yes I would like to see a cat friend",
+        "Can I see a cat friend",
+        "cat friend"
+      ]
     }
   ]
 }
