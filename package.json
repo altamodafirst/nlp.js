@@ -3,7 +3,7 @@
   "description": "Library for NLU (Natural Language Understanding) done in Node.js",
   "version": "1.0.0",
   "engines": {
-    "node": "16.14.0x"
+    "node": "16x"
   },
   "scripts": {
     "start": "node index.js",
