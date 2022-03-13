@@ -5,7 +5,7 @@
         "./corpus-en.json"
       ]
     },
-    "api-server": { "port": 3000, "serveBot": true }
+    "api-server": { "port": "process.env.PORT" , "serveBot": true }
   },
   "use": ["Basic", "ConsoleConnector", "ExpressApiServer", "DirectlineConnector"]
 }
