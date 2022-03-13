@@ -1,7 +1,12 @@
 {
-  "name": "root",
+  "name": "thera-cat",
   "description": "Library for NLU (Natural Language Understanding) done in Node.js",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.14.0x"
+  },
   "scripts": {
+    "start": "node index.js",
     "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
     "postinstall": "lerna bootstrap",
     "lint": "eslint .",
@@ -10,16 +15,16 @@
   },
   "author": {
     "email": "opensource@axa.com",
-    "name": "Jesus Seijas"
+    "name": "Amber Nifong"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/axa-group/nlp.js.git"
+    "url": "git+https://github.com/altamodafirst/nlp.js"
   },
   "bugs": {
     "url": "https://github.com/axa-group/nlp.js/issues"
   },
-  "homepage": "https://github.com/axa-group/nlp.js#readme",
+  "homepage": "https://git.heroku.com/thera-cat.git",
   "maintainers": [
     {
       "email": "opensource@axa.com",
