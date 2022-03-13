@@ -21,17 +21,14 @@
       "utterances": [
         "I'm feeling sad",
         "Hi Theracat, I'm feeling low",
-        "I'm feeling depressed",
-        "I don't want to go on",
-        "I don't feel like living",
         "I feel upset",
         "I'm upset"
       ],
     "answers": [
-      "I'm so sorry you are struggling with the sads",
-      "Feline low is hard.",
-      "No fear, Theracat is here to cheer you up!",
-      "Meow can I help you feel less sad?",
+      "I'm so sorry you are struggling with the sads, what wrong?",
+      "Feline low is hard. What's bothering you?",
+      "No fear, Theracat is here to cheer you up! How can I meow-elp?",
+      "Meowww can I help you feel less sad? Would you like to see a cat friend?",
       "Being sad and upset is ok, want some kitty cuddles and words of cat wisdom?",
       "Wat is making you sad? How can I meow-elp?"
     ]
@@ -48,7 +45,11 @@
       ],
       "answers": [
         "I'm so sorry to hear that. Friendship is tough. But I'm pawsitive your friends still love you",
-        "Would you like a cat friend to cheer you up?"
+        "Even the best of friends fight. Cool off. Think of what you need and want to say, and talk to your friend.  I'm sure you will find a happy place again",
+        "Would you like a cat friend to cheer you up?",
+        "Even if you feel like your friends are mad or will leave, they won't.  People love you. TheraCat loves YOU!",
+        "Sometimes the best thing for the sads is gratitude and a cat",
+        "TheraCat is sending you all the good kitty snuggles and wisdom of cats past"
       ]
     },
     {
@@ -57,6 +58,125 @@
         "yes I would like to see a cat friend",
         "Can I see a cat friend",
         "cat friend"
+      ]
+    },
+    {
+      "intent": "agent.sadResFam",
+      "utterances": [
+        "Something my family member did hurt me",
+        "My family is mad at me",
+        "My brother hurt my feelings",
+        "My sister hurt my feelings",
+        "My mom hurt my feelings",
+        "My dad hurt my feelings",
+        "My sister is mad at me",
+        "My brother is mad at me",
+        "My parents are mad at me",
+        "My mom is mad at me",
+        "My dad is mad at me"
+      ],
+      "answers": [
+        "Family is hard. Even though you may love your family it doesn't paways mean you'll get along. But you are still family and will get through this",
+        "Sometimes when my cat siblings boop me on the nose I get sad and hurt too. But there's nothing a cuddle session with a cat can't cure",
+        "Would you like a cat friend to cheer you up?",
+        "I recommend kitty cuddles, a good show, a cozy drink, comfy socks, and tasty food.  Self care is the best care!"
+      ]
+    },
+    {
+      "intent": "agent.sadResRomanceGeneral",
+      "utterances": [
+        "I'm upset over something my partner said to me",
+        "I'm upset over something my partner did to me", 
+        "My partner hurt my feelings",
+        "I feel like my partner doesn't care about my needs",
+        "I'm sad because I got into a fight with my partner"
+      ],
+      "answers": [
+        "Would you like a cat friend to cheer you up?",
+        "Relationships aren't always easy. Sometimes claws come out.  But that doesn't mean you don't love each other",
+        "Sometimes even the cats we are closest to can hurt us the most.  But take a step back, assess your needs, examine where they are coming from, and I know you can work it out",
+        "Sometimes me and my cat partner get into cat fights - I get it.  Go take care of you.  TheraCat is here to support you"
+      ]
+    },
+    {
+      "intent": "agent.sadResDepression",
+      "utterances": [
+        "I feel hopeless",
+        "I'm depressed",
+        "I don't want to live",
+        "Life is so painful",
+        "I'm so sad TheraCat, I don't want to exist",
+        "I don't want to exisit anymore"
+      ],
+      "answers": [
+        "Depression is a really scary hard feeling.  You aren't alone. It's ok to struggle. Please reach out to those closest to you for help and support and remember, TheraCat is here for you and I LOVE you just as you are",
+        "Sometimes life and the world feel so hard and heavy.  But one beautiful thing about life is, it isn't constant - things always change.  You won't be depressed forever",
+        "Go easy on yourself, would you like to see a cat friend to try to make you smile?",
+        "TheraCat just wants you to know even though things feel hard, you are smart, you are loved, and you are important"
+      ]
+    },
+    {
+      "intent": "agent.sadDeath",
+      "utterances": [
+        "I'm so so sad. My mom just died",
+        "I'm so so sad. My dad just died",
+        "I'm so so sad. My brother just died",
+        "I'm so so sad. My sister just died",
+        "I'm so so sad. My partner just died",
+        "I'm so so sad. My spouse just died",
+        "I'm so so sad. My friend just died",
+        "I'm so so sad. My child just died"
+      ],
+      "answers": [
+        "Wow those are big hard feels.  There is nothing I can say to bring a loved one back, but know their spirit and memories live on inside you",
+        "Death is so so painful.  I'm sorry you are hurting so bad.  Try to stay connected to loved ones in your life for support and know TheraCat is always there too!",
+        "I wish I could take away your pain.  However, a cat always adds a little joy to the day.  Would you feel better if you saw a cat friend?"
+      ]
+    },
+    {
+      "intent": "agent.angryResBasic",
+      "utterances": [
+        "I'm feeling angry",
+        "I'm frustrated",
+        "I feel rage",
+        "I'm pissed off"
+      ],
+      "answers": [
+        "You know what always calms me down? Cat friends! Would you like to see a cat friend?",
+        "Anger internalized can be toxic. Try writing down or journaling about your felines.  Or reach out to a close friend to discuss your anger healthily",
+        "Anger and frustration are normal, ok human emotions, but don't let your anger consume you.  Try to think of something that brings you peace.  Like a kitty :)"
+      ]
+    },
+    {
+      "intent": "agent.fearResBasic",
+      "utterances": [
+        "I'm feeling afraid",
+        "I'm anxious",
+        "I'm nervous",
+        "I don't feel safe",
+        "I feel scared"
+      ],
+      "answers": [
+        "Being afraid and anxious can be very scary.  TheraCat is here.  You aren't alone.  Would you like to see a cat friend to help you feel better?",
+        "Anxiety and fear can be so hard.  Why don't you try to cuddle a cat and reach out to a family or friend to come be with you or talk to you",
+        "I'm so sowy mew are anxious and scared.  Try taking deep breaths, put on soothing music or something that calms you, and for good measure, cuddle a cat"
+      ]
+    },
+    {
+      "intent": "agent.happyResBasic",
+      "utterances": [
+        "I'm feeling so happy",
+        "I feel great, I'm having a great day",
+        "I'm so happy, I just got great news",
+        "I'm so excited! I just got a new job!",
+        "I'm so happy.  We found out we are pregnant",
+        "I'm having the most amazing day! I just got engaged",
+        "I'm doing awesome"
+      ],
+      "answers": [
+        "I'm so excited you are happy! Being pawsitive about life is one of the joys of feline.",
+        "That's fantastic! Would you like to see a cat friend to celebrate with you?",
+        "Seize the day. TheraCat shares in you joy.  I'm so happy you are doing great.  Want to see a cat friend to make your day EVEN BETTER?"
       ]
     }
   ]
