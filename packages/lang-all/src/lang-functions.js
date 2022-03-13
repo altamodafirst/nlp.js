@@ -19,7 +19,6 @@ const langHu = require('@nlpjs/lang-hu');
 const langHy = require('@nlpjs/lang-hy');
 const langId = require('@nlpjs/lang-id');
 const langIt = require('@nlpjs/lang-it');
-const langJa = require('@nlpjs/lang-ja');
 const langKo = require('@nlpjs/lang-ko');
 const langLt = require('@nlpjs/lang-lt');
 const langMs = require('@nlpjs/lang-ms');

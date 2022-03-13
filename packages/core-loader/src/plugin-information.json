@@ -40,7 +40,6 @@
   "LangHy": { "className": "LangHy", "path": "@nlpjs/lang-hy" },
   "LangId": { "className": "LangId", "path": "@nlpjs/lang-id" },
   "LangIt": { "className": "LangIt", "path": "@nlpjs/lang-it" },
-  "LangJa": { "className": "LangJa", "path": "@nlpjs/lang-ja" },
   "LangNl": { "className": "LangNl", "path": "@nlpjs/lang-nl" },
   "LangNo": { "className": "LangNo", "path": "@nlpjs/lang-no" },
   "LangPt": { "className": "LangPt", "path": "@nlpjs/lang-pt" },

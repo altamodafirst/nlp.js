@@ -182,14 +182,6 @@ const {
   TokenizerIt,
 } = require('@nlpjs/lang-it');
 const {
-  LangJa,
-  NormalizerJa,
-  SentimentJa,
-  StemmerJa,
-  StopwordsJa,
-  TokenizerJa,
-} = require('@nlpjs/lang-ja');
-const {
   LangKo,
   NormalizerKo,
   SentimentKo,
